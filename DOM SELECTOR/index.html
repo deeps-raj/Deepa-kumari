@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM SELECTOR</title>
+</head>
+<body>
+            <h1>First H1</h1>
+            <h1>Second H1</h1>
+            <h3>First H3</h3>
+            <h3>Second H3</h3>
+            <h5>First H5</h5>
+            <h5>Second H5</h5>
+            <h5>Third H5</h5>
+            <div class="green">First DIV</div>
+            <div class="red">Second DIV</div>
+            <div class="blue">Third DIV</div>
+            <p class="green">First p</p>
+            <p class="red">Second p</p>
+            <p class="blue">Third p</p>
+            <hr />
+            <button onclick="changeH1()">change H1</button>
+            <button onclick="changeH3()">change H3</button>
+            <button onclick="changeH5()">change H5</button>
+            <button onclick="changeGreen()">change Green</button>
+            <button onclick="changeRed()">change Red</button>
+            <button onclick="changeBlue()">change Blue</button>
+            <script>
+                function changeH1(){
+                    let h1 = document.querySelectorAll("h1")
+                    for(let i=0; i<h1.length; i++){
+                        h1[i].style.color = "blue";
+                    }
+                }
+
+                    function changeH3(){
+                        let h3 = document.querySelectorAll("h3")
+                    for(let i=0; i<h3.length; i++){
+                        h3[i].style.color = "green";
+                    }
+                    }
+                    function changeH5(){
+                        let h5 = document.querySelectorAll("h5")
+                        for(let i=0; i<h5.length; i++){
+                            h5[i].style.color = "blue";
+                        }
+                    }
+
+                    function changeGreen(){
+                        let green = document.querySelectorAll(".green");
+                        for(let i=0; i<green.length; i++){
+                            green[i].style.color = "green";
+                        }
+                    
+                    }
+                    function changeRed(){
+                        let red = document.querySelectorAll(".red");
+                        for(let i=0; i<red.length; i++){
+                            red[i].style.color = "red";
+                        }
+                    }
+                    function changeBlue(){
+                        let blue = document.querySelectorAll(".blue");
+                        for(let i=0; i<blue.length; i++){
+                            blue[i].style.color = "blue";
+                        }
+                    }
+            </script>
+
+        </body>
+    </html>
