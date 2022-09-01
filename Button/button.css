@@ -1,0 +1,39 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#showButton {
+    /* border: 1px solid red; */
+    width: 98%;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#showButton > button {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+}
+
+#showButton > button:hover {
+ transform:  scale(1.1);
+ cursor: pointer;
+}
