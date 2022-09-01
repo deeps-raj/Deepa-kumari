@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+p{ 
+font-weight: bold;
+font-size: 17px; 
+margin-top: 20px;
+
+}
+
+#app{
+    margin-top: 20px;
+    border-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
