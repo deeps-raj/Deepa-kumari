@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grade", "Lucida Sans Unicode", Geneva, Verdana, Sans-serif;
+
+}
+ form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 10px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:10px;
+ }
+
+ label {
+    font-size: 19px;
+    font-weight: bolds;
+    margin-top: 5px;
+ }
+ select,
+ input[type="text"],
+ input[type="email"],
+ input[type="number"] {
+    border: 2px solid black;
+    height: 35px;
+    font-size: 17px;
+
+ }
+ select:hover,
+ input[type="text"]:hover,
+ input[type="email"]:hover,
+ input[type="number"]:hover {
+    box-shadow: rgba(84, 190, 13, 0.993) 0px 5px 15px; 
+    cursor: pointer;
+ }
+
+ #done {
+    border: 2px solid skyblue;
+    width: 35%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    background: linear-gradient(yellow,purple,rgba(202, 236, 10, 0.897));
+    transition: 0.5s;
+ }
+
+ #done:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    cursor: pointer;
+    transform: scale(1.1);
+
+
+ }
